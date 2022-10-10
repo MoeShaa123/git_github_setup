@@ -13,4 +13,10 @@ print(first_name)
 name = input()
 print("Hello " + name)
 ```
-
+```python
+# testing the env with print statement
+# Dynamically typed language
+# Python Variable?
+# To store any data
+# To store user data - hard code the data - any other type
+```
