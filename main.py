@@ -8,8 +8,11 @@ first_name = "Mohamed"
 last_name = "Yusuf"
 
 
-# Printing the first name
+# Printing the first and last name
 print(first_name)
+print(last_name)
+
+# Using inputs to print variables
 name = input()
 print("Hello " + name)
 
