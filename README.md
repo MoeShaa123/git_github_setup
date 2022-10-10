@@ -18,5 +18,15 @@ print("Hello " + name)
 # Dynamically typed language
 # Python Variable?
 # To store any data
-# To store user data - hard code the data - any other type
+# To store user data - hard code the data - any other 
+
+print("What is your DOB?")
+DOB = input()
+
+print("Course Name?")
+Course_name = input()
+
+print("Are you a UK resident, Yes or No")
+UK_resident = input()
+
 ```

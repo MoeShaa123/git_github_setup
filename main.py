@@ -25,5 +25,5 @@ Course_name = input()
 print("Are you a UK resident")
 UK_resident = input()
 
-print(DOB)
+
 
