@@ -52,15 +52,47 @@ print(greeting[-6:]) # prints World!
 
 # String methods are available
 
-white_space = "lot's of spaces at the end                                 "
-# strip() removes the white spaces
-print(len(white_space.strip())) # this removes all white spaces at the end
+# white_space = "lot's of spaces at the end                                 "
+# # strip() removes the white spaces
+# print(len(white_space.strip())) # this removes all white spaces at the end
+#
+# Example_text = "here's example text with lots of text"
+# print(Example_text.count("text")) # counts how many times text appears
+#
+# print(Example_text.upper()) # capitalizes every letter
+# print(Example_text.capitalize()) # capitalizes the first letter
+# print(Example_text.replace("with", "'")) # replaces characters in string
 
-Example_text = "here's example text with lots of text"
-print(Example_text.count("text")) # counts how many times text appears
+# user data input
+first_name = "mohamed"
+last_name = "yusuf"
+salary =  40
 
-print(Example_text.upper()) # capitalizes every letter
-print(Example_text.capitalize()) # capitalizes the first letter
-print(Example_text.replace("with", "'")) # replaces characters in string
+print(first_name + " " + last_name + " " + str(salary)) # cast int to string using string()
+
+# F-string
+print(f"Hello {first_name} {last_name}")  # Python 3.5/6 or above
+
+print("What is your name?")
+name = input()
+
+print("What is your DOB")
+DOB = input()
+
+print("Course Name?")
+Course_name = input()
+
+
+print("What is your adress?")
+adress = input()
+
+print("What are your hobbies?")
+Hobby = input()
+
+print(f"Hello my name is {name}, I was born on {DOB}, I am studying a {Course_name} course, I live in {adress} and I enjoy {Hobby}")
+
+
+
+
 
 
