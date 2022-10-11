@@ -82,14 +82,17 @@ DOB = input()
 print("Course Name?")
 Course_name = input()
 
+print("What is your door number?")
+Door_number = str(input())
+
 
 print("What is your adress?")
-adress = input()
+address = input()
 
 print("What are your hobbies?")
 Hobby = input()
 
-print(f"Hello my name is {name}, I was born on {DOB}, I am studying a {Course_name} course, I live in {adress} and I enjoy {Hobby}")
+print(f"Hello my name is {name}, I was born on {DOB}, I am studying a {Course_name} course, I live in {Door_number} {address} and I enjoy {Hobby}")
 
 
 
