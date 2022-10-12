@@ -38,7 +38,7 @@ height = input()
 print("What is your favourite colour?")
 favourite_colour = input()
 
-print(f"Your name is {name}, I am {height} and my favourite colour is {favourite_colour} ")
+print(f"My name is {name}, I am {height} and my favourite colour is {favourite_colour} ")
 
 secret_spirit_animal = "panda"
 
