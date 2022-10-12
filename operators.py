@@ -65,13 +65,7 @@ print(greeting[-6:]) # prints World!
 
 
 
-print("What is your adress?")
-address = input()
 
-print("What are your hobbies?")
-Hobby = input()
-
-print(f"Hello my name is {name}, I was born on {DOB}, I am studying a {Course_name} course, I live in {Door_number} {address} and I enjoy {Hobby}")
 
 
 
