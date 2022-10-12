@@ -301,5 +301,6 @@ print(student_1["completed_lessons_names"])
 print(student_1.keys())
 print(student_1.values())
 
+
 ```
 
