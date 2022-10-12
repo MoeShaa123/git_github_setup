@@ -19,7 +19,7 @@ print(story1["start"])
 print(story1["middle"])
 print(story1["end"])
 
-story1["Hero"] = "yourSuperHero"  # add item to dict
+story1["Hero"] = "Batman"  # add item to dict
 print(story1)
 
 # Input task
