@@ -131,7 +131,6 @@ See 'git help git' for an overview of the system.
 - `>=` more than or equal to
 #### To commit multiple lines `ctrl+/`
 
-
 ```python
 a = 24
 b = 16
@@ -146,6 +145,9 @@ print(a>b) # True
 print(a<b) # False
 print(a==b) # False
 ```
+
+## Built-in functions
+
 ```
 ### Boolean Builtin methods in Python - Boolean Methods
 #### - DRY do not repeat yourself print("")
@@ -187,6 +189,7 @@ print(Example_text.capitalize()) # capitalizes the first letter
 print(Example_text.replace("with", "'")) # replaces characters in string
 
 ```
+## User inputs
 
 ```python
 # user data input
@@ -283,5 +286,20 @@ print(student_1["stream"]) # This will display the value saved inside stream
 
 print(student_1["completed_lessons"])
 print(student_1["completed_lessons_names"][0])
+
+student_1["completed_lessons"] = 3 # change values in 
+print(student_1["completed_lessons"])
+
+# Delete an item from the list of completed_lessons_name/key
+
+student_1["completed_lessons_names"].remove("OOP")
+print(student_1["completed_lessons_names"])
+
+# Dict Builtin Methods
+# display keys only or values
+
+print(student_1.keys())
+print(student_1.values())
+
 ```
 
